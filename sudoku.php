@@ -54,8 +54,6 @@ class Sudoku
     public function solve()
     {
         global $sudoku;
-        
-        die(print_r($sudoku));
 
         foreach(range(0, 9) as $y)
         {
